@@ -17,6 +17,9 @@ const ButtonList = () => {
         <Button name="French"/>
         <Button name="Actresses"/>
         <Button name="Models"/>
+        <Button name="French"/>
+        <Button name="Actresses"/>
+        <Button name="Models"/>
 
 
 
