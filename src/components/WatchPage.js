@@ -43,8 +43,8 @@ const WatchPage = () => {
 </div>
     </div>
     
-    <div>
-    <div className=' font-bold p-2 pl-5 text-center  text-xl'>Live Chat</div>    
+    <div className='h-22'>
+    <div className=' font-bold p-2 pl-5 text-center  text-xl h-10'>Live Chat</div>    
     <LiveChat/>
     <form className='grid grid-flow-col ' onSubmit={(e)=>{e.preventDefault(); dispatch(addMessages({
         name:"Soham Mukherjee", message:messageTxt

@@ -94,7 +94,7 @@ const Head = () => {
         <div className='flex col-span-1'> 
         <img  className="h-8 cursor-pointer" alt="menu" onClick={toggleMenuHandler} src="https://cdn.iconscout.com/icon/free/png-256/free-hamburger-menu-462145.png?f=webp"/>
         <a href='/'>
-        <img className="h-8 ml-2" alt="LOGO" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/YouTube_social_white_square_%282017%29.svg/2048px-YouTube_social_white_square_%282017%29.svg.png"/>
+        <img className="h-[26px] w-[90px] ml-2 pt-1 pl-4 mt-0" alt="LOGO" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/YouTube_Premium_logo.svg/1280px-YouTube_Premium_logo.svg.png"/>
         </a>
         </div>
         <div className=' col-span-10 px-10'>

@@ -110,7 +110,7 @@ const LiveChat = () => {
 
   return (
     
-    <div className=' bg-slate-100  rounded-lg w-full h-[600px] ml-2 p-2 border-black overflow-y-scroll flex flex-col-reverse'>
+    <div className=' bg-slate-100  rounded-lg w-full h-[500px] w-[650px] ml-2 p-2 border-black overflow-y-scroll flex flex-col-reverse'>
         {/* <ChatMessage name={"Soham"} message={"XYZ"}/>
         <ChatMessage name={"Soham"} message={"XYZ"}/>
         <ChatMessage name={"Soham"} message={"XYZ"}/>

@@ -1,6 +1,10 @@
 import React from 'react'
+import Shimmer from './Shimmer';
 
-const VideoCard = ({info}) => {
+const VideoCard = (props) => {
+
+
+  const {info} = props;
 
     if(info === undefined) return;
 
@@ -23,7 +27,7 @@ const redBorderVideoCard = (VideoCard) =>{
 
 
   return (
-    <div className='p-2 m-2 w-72 shadow-lg'>
+    <div className='p-2 m-2 w-72 shadow-lg rounded-xl'>
         <img className="rounded-lg" src={thumbnails.medium.url} alt="thumbnail"/>
         <ul>
             <li className=' font-bold p-2'>{title}</li>
