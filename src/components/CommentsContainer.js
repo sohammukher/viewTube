@@ -39,6 +39,15 @@ const commentsData =[
         }],
     },
 
+    {
+        name:"Karan",
+        text:"Lorem ipsum fdasdsadasdasd",
+        replies:[{  name:"Soham",
+        text:"Lorem ipsum fdasdsadasdasd",
+        replies:[],}],
+
+    },
+
 
 ]
 
@@ -48,7 +57,7 @@ const Comment = ({data}) =>{
 
     console.log("Comment "+ name+" "+text)
 
-    return (<div className='flex  shadow-md bg-gray-100 p-2 rounded-lg'>
+    return (<div className='flex  shadow-lg bg-gray-100 p-2 rounded-lg'>
         <img  className="w-12 h-12 p-3" src="https://www.iconpacks.net/icons/2/free-user-icon-3296-thumb.png" alt="USER PICTURE"/>
         <div>
             <p className=' font-bold'>{name}</p>

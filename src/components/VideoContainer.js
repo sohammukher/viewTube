@@ -3,6 +3,8 @@ import { YOUTUBE_VIDEOS_API } from '../utils/constants';
 import VideoCard from './VideoCard';
 import { Link } from 'react-router-dom';
 
+const YOUTUBE_TITLE_API = "https://www.googleapis.com/youtube/v3/videos?part=snippet&id={YOUTUBE_VIDEO_ID}&fields=items(id%2Csnippet)&key="
+
 const VideoContainer = () => {
 
     const [videos, setVideos] = useState([]);
