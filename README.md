@@ -1,7 +1,7 @@
 # ViewTube - Advanced Web Streaming Platform | Link To Access : https://65990dc5480483ac1cfabc4d--thunderous-pegasus-34cfcd.netlify.app/
 
 
-## Secreen Shot For the Application :
+## Secreen Shot Of the Application :
 
 ![image](https://github.com/sohammukher/viewTube/assets/37874706/7e009aa7-c554-40f5-b2a5-bff212d6503a)
 
